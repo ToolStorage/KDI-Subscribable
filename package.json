@@ -5,6 +5,10 @@
   "description": "Reactive property system for Unity 6. SubscribableProperty<T>, SubscribableCollection<T>, SubscribableDictionary<TKey,TValue> with LINQ extensions and debug tools.",
   "unity": "6000.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ToolStorage/KDI-Subscribable"
+  },
   "keywords": [
     "reactive",
     "observable",
