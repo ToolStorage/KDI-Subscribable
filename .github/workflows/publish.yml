@@ -17,6 +17,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install npm latest
+        run: npm install -g npm@latest
 
       - name: Publish with trusted publishing
         run: npm publish --provenance --access public
