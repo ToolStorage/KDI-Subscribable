@@ -1,6 +1,6 @@
 {
   "name": "com.kylin.subscribable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Kylin Subscribable Property",
   "description": "Reactive property system for Unity 6. SubscribableProperty<T>, SubscribableCollection<T>, SubscribableDictionary<TKey,TValue> with LINQ extensions and debug tools.",
   "unity": "6000.0",
