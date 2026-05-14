@@ -19,8 +19,8 @@ jobs:
           node-version: '20'
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Remove auth token placeholder
-        run: sed -i 's/\/\/registry.npmjs.org\/:_authToken=.*//' ~/.npmrc
+      - name: Upgrade npm for OIDC support
+        run: npm install -g npm@latest
 
       - name: Publish with trusted publishing
-        run: npm publish --provenance --access public
+        run: npm publish --access public
