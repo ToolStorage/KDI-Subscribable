@@ -3,7 +3,7 @@
 Unity 6 전용 반응형 프로퍼티 시스템. 값 변경 관찰, UI 바인딩, 상태 동기화에 사용한다. 외부 라이브러리(UniRx, R3) 없이 독립적으로 동작한다.
 
 ```
-com.kylin.subscribable v1.0.0 | Unity 6000.0+ | MIT License
+com.kylin.subscribable | Unity 6000.0+ | MIT License
 ```
 
 ---
